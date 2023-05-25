@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #1D3557;
+}
+
+#hero {
+    height: 343px;
+    background: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#hero-title {
+    background: #1D3557;
+    border-radius: 10px;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 4px 12px;
+
+}
+
+#hero-subtitle {
+    background: #457B9D;
+    border-radius: 10px; 
+    width: 412px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 16px auto;
+    padding: 4px 12px;
+}
+
+#activity {
+    margin: 0px;
+    background: #F1FAEE;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 40px;
+}
+
+#sub-activity {
+    margin: 0px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.activity-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.activity-title {
+    width: 185px;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 16px auto;
+}
+
+.activity-description {
+    width: 198px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 auto;
+}
+
+#activity-heading {
+    margin: 0 auto 54px; 
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+}
+
+#guide {
+    width: 400px;
+    margin: 50px auto;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    padding: 23px 13px;
+    display: flex;
+}
+    
+#guide-img {
+    width: 180px;
+    height: 248px; 
+    border-radius: 10px;
+}
+
+#guide-details {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;    
+}
+
+img {
+    width: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
